@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script src="./head.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://podyplomowe.informatyka.agh.edu.pl/oferta/InformatykaPPES/">AGH PPiES</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="./login.html">Login</a>
+        </li>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./prog_www.html">Programowanie WWW</a>
+        </li>
+        <li>
+          <a href="./b_dan.html">Bazy Danych</a>
+        </li>
+        <li>
+          <a href="./java.html">Java</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="login-wrap">
+      <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Zaloguj</label> <input id="tab-2" type="radio" name="tab" class=
+        "sign-up"><label for="tab-2" class="tab">Zarejestruj się</label>
+        <div class="login-form">
+          <div class="sign-in-htm">
+            <div class="group">
+              <label for="user" class="label">Użytkownik</label> <input id="user" type="text" class="input">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Hasło</label> <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <input id="check" type="checkbox" class="check" checked> <label for="check">ZAPAMIĘTAJ LOGIN</label>
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Zaloguj">
+            </div>
+            <div class="hr"></div>
+            <div class="foot-lnk">
+              <a href="#forgot">Zapomniałeś hasła?</a>
+            </div>
+          </div>
+          <div class="sign-up-htm">
+            <div class="group">
+              <label for="user" class="label">Użytkownik</label> <input id="user" type="text" class="input">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Hasło</label> <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Powtórz hasło</label> <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Adres Email</label> <input id="pass" type="text" class="input">
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Zarejestruj">
+            </div>
+            <div class="hr"></div>
+            <div class="foot-lnk">
+              <label for="tab-1">Masz już konto?</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
